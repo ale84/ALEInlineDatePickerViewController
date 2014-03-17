@@ -7,6 +7,7 @@
 //
 
 #import "ALEAppDelegate.h"
+#import "InlineTestViewController.h"
 
 @implementation ALEAppDelegate
 
@@ -16,6 +17,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[InlineTestViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    
     return YES;
 }
 
