@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA7F79F918E179660038BB0C /* ALEInlineDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7F79F818E179660038BB0C /* ALEInlineDatePickerViewController.m */; };
 		CADAABAD18D6E68500DB9C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADAABAC18D6E68500DB9C1E /* Foundation.framework */; };
 		CADAABAF18D6E68500DB9C1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADAABAE18D6E68500DB9C1E /* CoreGraphics.framework */; };
 		CADAABB118D6E68500DB9C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADAABB018D6E68500DB9C1E /* UIKit.framework */; };
@@ -19,7 +20,6 @@
 		CADAABC818D6E68500DB9C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADAABB018D6E68500DB9C1E /* UIKit.framework */; };
 		CADAABD018D6E68500DB9C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADAABCE18D6E68500DB9C1E /* InfoPlist.strings */; };
 		CADAABD218D6E68500DB9C1E /* InlineDatePickerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAABD118D6E68500DB9C1E /* InlineDatePickerExampleTests.m */; };
-		CADAABDE18D6E6CD00DB9C1E /* ALEInlineDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAABDD18D6E6CD00DB9C1E /* ALEInlineDatePickerViewController.m */; };
 		CADAABE118D6E6D900DB9C1E /* InlineTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAABE018D6E6D900DB9C1E /* InlineTestViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA7F79F718E179660038BB0C /* ALEInlineDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALEInlineDatePickerViewController.h; path = ../../../../My_Stuff/ALEStuff/ALEStuff/Controller/ALEInlineDatePickerViewController.h; sourceTree = "<group>"; };
+		CA7F79F818E179660038BB0C /* ALEInlineDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALEInlineDatePickerViewController.m; path = ../../../../My_Stuff/ALEStuff/ALEStuff/Controller/ALEInlineDatePickerViewController.m; sourceTree = "<group>"; };
 		CADAABA918D6E68500DB9C1E /* InlineDatePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InlineDatePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADAABAC18D6E68500DB9C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CADAABAE18D6E68500DB9C1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +52,6 @@
 		CADAABCD18D6E68500DB9C1E /* InlineDatePickerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InlineDatePickerExampleTests-Info.plist"; sourceTree = "<group>"; };
 		CADAABCF18D6E68500DB9C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CADAABD118D6E68500DB9C1E /* InlineDatePickerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InlineDatePickerExampleTests.m; sourceTree = "<group>"; };
-		CADAABDC18D6E6CD00DB9C1E /* ALEInlineDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEInlineDatePickerViewController.h; sourceTree = "<group>"; };
-		CADAABDD18D6E6CD00DB9C1E /* ALEInlineDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEInlineDatePickerViewController.m; sourceTree = "<group>"; };
 		CADAABDF18D6E6D900DB9C1E /* InlineTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InlineTestViewController.h; sourceTree = "<group>"; };
 		CADAABE018D6E6D900DB9C1E /* InlineTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InlineTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,8 +156,8 @@
 		CADAABDB18D6E6C300DB9C1E /* ALEInlineDatePickerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CADAABDC18D6E6CD00DB9C1E /* ALEInlineDatePickerViewController.h */,
-				CADAABDD18D6E6CD00DB9C1E /* ALEInlineDatePickerViewController.m */,
+				CA7F79F718E179660038BB0C /* ALEInlineDatePickerViewController.h */,
+				CA7F79F818E179660038BB0C /* ALEInlineDatePickerViewController.m */,
 			);
 			path = ALEInlineDatePickerViewController;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			files = (
 				CADAABB918D6E68500DB9C1E /* main.m in Sources */,
 				CADAABBD18D6E68500DB9C1E /* ALEAppDelegate.m in Sources */,
-				CADAABDE18D6E6CD00DB9C1E /* ALEInlineDatePickerViewController.m in Sources */,
+				CA7F79F918E179660038BB0C /* ALEInlineDatePickerViewController.m in Sources */,
 				CADAABE118D6E6D900DB9C1E /* InlineTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +460,7 @@
 				CADAABD718D6E68500DB9C1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CADAABD818D6E68500DB9C1E /* Build configuration list for PBXNativeTarget "InlineDatePickerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				CADAABDA18D6E68500DB9C1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
